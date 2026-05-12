@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-group-bot",
+  "version": "1.0.0",
+  "description": "Bot untuk mengatur grup WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "@hapi/boom": "^10.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.17.2",
+    "express": "^4.18.2"
+  }
+}
